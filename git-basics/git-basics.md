@@ -24,9 +24,9 @@ Initialized empty Git repository in C:/git-basics/project/.git/
 ```
 
 ## Committing Files
-Let's beginn by creating a new file ```hello-git.txt``` in our project folder and adding the following lines to it:
+Let's beginn by creating a new file ```hello-git.txt``` in our project folder and adding the string ```"Hello World!"``` to it:
 ```
-Hello World!
+C:\git-basics\project> echo "Hello World!" > hello-git.txt
 ```
 Using the ```git status``` command will reveal that we created a
 new file ```hello-git.txt``` that is untracked. This means that this file is currently not under version control.
@@ -45,7 +45,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 Committing new or modified files into a git repository is a two-step process:
 1. Using the ```git add``` command to tell git which of the new or modified files we want to commit. Files that are marked for a commit are also referred to as *staged files*
-1. Using the ```git commit``` command to actual commit the files
+2. Using the ```git commit``` command to actual commit the files
 
 Now we can tell git to stage our new file by using the ```git add``` command.
 ```
