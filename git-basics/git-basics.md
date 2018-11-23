@@ -12,7 +12,7 @@ git version 2.13.0.windows.1
 into your terminal. In case of a successful installation git will return its version.
 
 ## Initializing Git
-In order track our source code history we have to tell git that it should track the folder containing our project. Let's begin by creating a new project folder named ```project```:
+In order to track our source code history we have to tell git that it should track the folder containing our project. Let's begin by creating a new project folder named ```project```:
 ```
 C:\git-basics> mkdir project
 ```
@@ -44,7 +44,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 Committing new or modified files into a git repository is a two-step process:
-1. Using the ```git add```command to tell git which of the new or modified files we want to commit. Files that are marked for a commit are also referred to as *staged files*
+1. Using the ```git add``` command to tell git which of the new or modified files we want to commit. Files that are marked for a commit are also referred to as *staged files*
 1. Using the ```git commit``` command to actual commit the files
 
 Now we can tell git to stage our new file by using the ```git add``` command.
@@ -74,7 +74,7 @@ C:\git-basics\project>git commit -m "Initial commit."
  1 file changed, 1 insertion(+)
  create mode 100644 test.txt
 ```
-After the file has been sucessfully committed the ```git status``` command once again reveals that we have no more changes to be committed.
+After the file has been sucessfully committed the ```git status``` command reveals that we have no more changes to be committed.
 ```
 C:\git-basics\project>git status
 On branch master
