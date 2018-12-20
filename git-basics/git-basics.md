@@ -2,6 +2,12 @@
 Git is a version control system which allows us to
 manage our source code history with a strong focus on collaborative and distributed development.
 
+## Content
+
+1. Installation
+2. Initializing Git
+3. Committing Files
+
 ## Installation
 To work with git we have to download and install it. Git can be downloaded from https://git-scm.com/.
 To determine whether git was successfully installed type
