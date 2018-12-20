@@ -13,3 +13,20 @@ npm install -g create-react-app
 ```
 create-react-app my-app --scripts-version=react-scripts-ts
 ```
+
+## Running the project
+
+```
+npm run start
+```
+
+## Testing the project
+
+```
+npm run test
+```
+## Creating a production build
+
+```
+npm run build
+```
