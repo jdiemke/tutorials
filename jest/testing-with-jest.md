@@ -1,6 +1,6 @@
 # Testing with Jest
 
-Jest is a JavaScript unit testing framework from facebook that was primary developed for testing react applications although it is not limited to that.
+Jest is a JavaScript unit testing framework from the facebook guys that was primary developed for testing react applications even thought it is not limited to that. It has some pretty cool features like snapshot testing, a watch mode that re-runs tests on file changes and a built-in code coverage report that requires zero configuration.
 
 ## Setup
 
@@ -53,7 +53,7 @@ Congratulations! You just ran Jest. Although it did not test anything since it c
 
 ## Writing your first Jest test
 
-Let's get started by writing a simple calculator class that can just add two numbers.
+Let's get started by writing a simple calculator in `calculator.js` that can just add two numbers.
 
 ```javascript
 class Calculator {
@@ -67,7 +67,7 @@ class Calculator {
 module.exports = Calculator;
 ```
 
-The corresponding test would look like follows:
+The corresponding test `calculator.test.js` would look like follows:
 
 ```javascript
 const Calculator = require( './calculator');
